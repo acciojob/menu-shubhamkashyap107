@@ -6,7 +6,7 @@ const CompA = ({item}) => {
     // console.log(title)
 
   return (
-    <div style={{display:"flex", border:"1px solid black", width:"500px"}}>
+    <div data-test-id={"menu-item-" + category} style={{display:"flex", border:"1px solid black", width:"500px"}}>
         <img src={img} alt='broken'/>
 
         <div>
