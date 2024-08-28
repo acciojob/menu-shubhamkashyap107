@@ -88,7 +88,7 @@ const App = () => {
     
 
   return (
-    <div>
+    <div id='main'>
         
         <h1>Our Menu</h1>
 
