@@ -105,7 +105,7 @@ const App = () => {
 
 
             }}>All</button>
-            <button onClick={() => {
+            <button id='filter-btn-1' onClick={() => {
                 const cat = "breakfast"
 
                 const nArr = items.filter((item) => {
@@ -117,7 +117,7 @@ const App = () => {
 
 
             }}>Breakfast</button>
-            <button onClick={() => {
+            <button id='filter-btn-2' onClick={() => {
                 const cat = "lunch"
 
                 const nArr = items.filter((item) => {
@@ -129,7 +129,7 @@ const App = () => {
 
 
             }}>Lunch</button>
-            <button onClick={() => {
+            <button id='filter-btn-3' onClick={() => {
                 const cat = "shakes"
 
                 const nArr = items.filter((item) => {
